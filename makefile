@@ -1,7 +1,3 @@
-test: all
-	clear
-	./a.out
-
 all: main.c clean bezier.o
 	gcc main.c -lSDL
 
